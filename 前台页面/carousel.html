@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<style type="text/css">
+ #second_div{
+  /*margin-top: 160px;*/
+  margin-left: 350px;
+  width: 1000px;
+  }
+  .img_box{
+  overflow: hidden;
+  width:100%;
+  height:520px;
+  position:relative;
+ }  
+  .img_box img{
+  width:100%;
+  position:absolute;
+ }  
+  .ul5{
+  list-style: none;
+  position:absolute;
+  left:580px;
+  top:565px;
+  } 
+  .ul5 li{
+  float:left;
+  margin-left:20px;
+ /* width:40px;
+  height:5px;
+  border:0px;*/
+  background:lawngreen;
+ }
+  .d1,.d2{
+  width:50px;
+  height:60px;
+  background-color: rgba(10,10,10,0.5);
+  text-align: center;
+  font-size:26px;
+  font-weight: 800px;
+  line-height:60px;
+  cursor: pointer;
+  }
+  .d1{
+  position:absolute;
+  top:213px;
+  left:375px;
+  }
+  .d2{
+  position:absolute;
+  top:213px;
+  left:1290px;
+  }
+  #hp_mes {
+    width: 330px;
+    height: 520px;
+    float: left;
+  }
+  #hp_mes_1 {
+    width: 330px;
+    height: 320px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .news {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #news1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+  #span1 {
+    font-size: 10px;
+    color: gray;
+  }
+  #hp_footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: gray;
+  }
+  .footer_data {
+    margin-left: 220px;
+  }
+  .fd_span1 {
+    margin-left: 250px;
+  }
+  .fds_color {
+    color: #F5801C;
+    font-size: 30px;
+  }
+  #fd_span21 {
+    margin-left: 30px;
+  }
+  #fd_span22 {
+    margin-left: 310px;
+  }
+  #fd_span23 {
+    margin-left: 270px;
+  }
+</style>
+<script type="text/javascript" src="plugins/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+  <!-- 资讯速览-->
+  <div id="hp_mes">
+    <div  id="hp_mes_1">
+      <span class="news">资讯速览</span>
+      <ol>
+        <li>
+          <a href="http://finance.stockstar.com/SS2017101800000479.shtml ">国产芯片概念股表现抢眼必创科技涨幅超过5%</a><br>
+          <img src="images/news.jpg" id="news1">
+          <span id="span1">
+            今日早盘，国产芯片概念股表现抢眼，截至发稿，必创科技涨3.37%，北京君正，紫光国芯，中颖电子，华天科技，富瀚微，全志科技，浪潮信息等股均有<a href="http://finance.stockstar.com/SS2017101800000479.shtml ">[详细]</a>
+          </span>
+        </li>
+        <li>
+          <a href="http://www.techweb.com.cn/finance/2017-10-18/2594743.shtml">酷派发行5.82亿港元可换股债券 年利率5% </a>
+
+        </li>
+        <li>
+          <a href="http://finance.ifeng.com/a/20171018/15730122_0.shtml ">外媒：美国政府有一“秘密武器” 可以摧毁比特币</a>
+        </li>
+        <li>
+          <a href="http://finance.ifeng.com/a/20171018/15730007_0.shtml">央行今日进行3000亿元逆回购操作 净投放2700亿元</a>
+        </li>
+      </ol>
+    </div>
+    <div  id="hp_mes_2">
+      <span class="news">生财有道</span>
+      <ol>
+        <li>
+          <a href="http://tech.ifeng.com/a/20171017/44718899_0.shtml">李开复华盛顿邮报专栏：发钱解决AI失业潮？硅谷大咖太天真 
+          </a>
+        </li>
+        <li>
+          <a href="http://finance.cnr.cn/gundong/20171018/t20171018_523991462.shtml"> 银行理财产品收益率年底或再现翘尾 
+          </a>
+        </li>
+        <li>
+          <a href="http://www.twwtn.com/detail_239739.htm ">互联网黄金投资迅猛发展 黄金树借金企背景布局完整黄金服务链
+          </a>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <!-- 轮播图 -->
+  <div id="second_div">
+  <div class="img_box">
+   <img src="images/hp1.jpg">
+   <img src="images/hp2.jpg">
+   <img src="images/hp3.jpg">
+  </div> 
+   <ul class="ul5">
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+  </ul>
+   <div class="d1"><</div>
+   <div class="d2">></div>
+  </div>
+  <div id="hp_footer">
+    <div class="footer_data">
+      <span class="fds_color">772</span>亿<span class="fds_color">1247</span>万
+      <span class="fd_span1 fds_color">772</span>万<span class="fds_color">3447</span>
+      <span class="fd_span1 fds_color">1584</span>天
+    </div>
+    <div class="footer_data">
+      <span id="fd_span21">累计成交(元)</span>
+      <span id="fd_span22">累计注册(人)</span>
+      <span id="fd_span23">运营时间(天)</span>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+  $(document).ready(function(){
+//搜索按钮
+ $("#ss").click(function(){
+  var new_li = $("<li>"+ $("#skuang").val() +"</li>");
+  $("#d1 ul").append(new_li);
+  $("#d1").hide();
+  $("#skuang").val("");
+
+  })
+
+  $("#skuang").focus(function(){
+   $("#d1").css("display","block");
+  });
+  
+  $("#skuang").blur();
+  $("#qingch").click(function(){
+   $("#d1 li:gt(0)").remove();
+   $("#d1").hide();
+   
+  });
+
+//轮播图
+  var img=$(".img_box img");
+  var li=$(".ul5 li");
+  var divW=$(".img_box").width();
+  var len=$(".img_box img").length;
+  img.css("left",divW);
+  img.eq(0).css("left",0);
+  li.eq(0).css("background","red");
+  var index=0;
+  var next=0;
+  function show(){
+   next++;
+   if(next==len){
+    next=0;
+   }
+   img.eq(next).css("left",divW);
+   img.eq(index).animate({"left":-divW});
+   img.eq(next).animate({"left":0});
+   li.eq(next).css("background","red");
+   li.eq(index).css("background","lawngreen");
+   index=next;
+  }
+  t=setInterval(show,2000);
+  function show1(){
+   next--;
+   if(next==-1){
+    next=len-1;
+   }
+   img.eq(next).css("left",-divW);
+   img.eq(index).animate({"left":divW});
+   img.eq(next).animate({"left":0});
+   li.eq(next).css("background","red");
+   li.eq(index).css("background","lawngreen");
+   index=next;     
+  }
+  img.hover(function(){
+   clearInterval(t);     
+  },function(){
+   t=setInterval(show,2000);
+  })
+  //左右按钮
+  $(".d2").mousedown(function(){
+   clearInterval(t);
+   show();
+  })
+  $(".d2").mousedown(function(){
+     t=setInterval(show,2000);
+  }) 
+  $(".d1").mousedown(function(){
+   clearInterval(t);
+     show1();
+  })
+  $(".d1").mousedown(function(){
+   t=setInterval(show,2000);
+  })
+  //小白点 点击
+  li.mousedown(function(){
+   num=$(this).index();
+   if(num==next){
+    return;
+   }else if(num<next){
+    clearInterval(t);
+    img.eq(num).css("left",-divW);
+     img.eq(index).animate({"left":divW});
+     img.eq(num).animate({"left":0});
+     li.eq(num).css("background","red");
+     li.eq(index).css("background","lawngreen");
+     index=num;
+     next=num;
+   }else if(num>next){
+    clearInterval(t);
+     img.eq(num).css("left",divW);
+     img.eq(index).animate({"left":-divW});
+     img.eq(num).animate({"left":0});
+     li.eq(num).css("background","red");
+     li.eq(index).css("background","lawngreen");
+     index=num;
+     next=num;
+   }
+ })
+    li.mouseup(function(){
+     t=setInterval(show,2000);
+   })
+  })
+</script>
+</html>
