@@ -1,0 +1,64 @@
+.main{
+	width: 700px;
+	height: 600px;
+	margin:0 auto;
+	border:1px solid #D9E2E1;
+	background-color: #F6F8F7;
+	opacity: 0.7;
+	border-radius: 2%;
+}
+header{
+	margin:20px;
+	height: 70px;
+	/*border:1px solid cyan;*/
+}
+img{
+	width: 65px;
+	height: 64px;
+	float: left;
+	margin-left: 150px;
+}
+.text{
+	width: 150px;
+	height: 65px;
+	font-size: 26px;
+	
+	float: left;
+	line-height: 65px;
+	margin-left: 63px;
+}
+p{
+	margin-left: 150px;
+	margin-top: 20px;
+}
+input{
+	width: 300px;
+	height: 28px;
+}
+#rad{
+	width: 20px;
+	height: 15px;
+}
+select{
+	width: 300px;
+	height: 25px;
+}
+textarea{
+	width: 300px;
+	height: 100px;
+}
+#submit{
+	width: 70px;
+	height: 25px;
+	margin-left: 115px;
+}
+#reset{
+	width: 70px;
+	height: 25px;
+	margin-left: 30px;
+}
+footer{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+}

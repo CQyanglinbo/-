@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>提现页面</title>
+	<style type="text/css">
+		.cash_div{
+			margin-top: 50px;
+			margin-left: 100px;
+			width: 500px;
+			height: 400px;
+			border: solid 1px #DFE0E2;
+		}
+		#cashPage{
+			font-size: 15px;
+			line-height: 50px;
+			height: 50px;
+			background-color: #F7F7F7;
+			border-bottom:solid 1px #E4E4E6;
+		}
+		#balance{
+			font-size: 20px;
+			line-height: 70px;
+			height: 70px;
+			background-color: #F4F8FB;
+			border-bottom:solid 1px #E4E4E6;
+		}
+		.doCash{
+			width: 300px;
+			height: 150px;
+			margin-left: 40px;
+			margin-top: 100px;
+		}
+		.cashInput{
+			margin-bottom: 20px;
+			height:30px;
+		}
+		#cashSubmit{
+			height: 30px;
+			background-color: #FAAD9D;
+			margin-left:80px;
+		}
+	</style>
+</head>
+<body>
+ 	<div class="cash_div">
+ 		<div id="cashPage">提现</div>
+		<div id="balance">可用金额：</div>
+		<div class="doCash">
+			<form>
+				提现金额：<input type="text" class="cashInput" =""><br>
+				支付密码：<input type="text" class="cashInput" =""><br>
+				<input type="submit" id="cashSubmit" value="确认提交">
+			</form>
+		</div>
+		
+ 	</div>
+	
+</body>
+</html>

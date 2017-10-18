@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改账户页面</title>
+	<style type="text/css">
+		.modify_div{
+			margin-top: 50px;
+			margin-left: 100px;
+			width: 500px;
+			height: 400px;
+			border: solid 1px #DFE0E2;
+		}
+		#modify_tag{
+			font-size: 15px;
+			line-height: 50px;
+			height: 50px;
+			background-color: #F7F7F7;
+			border-bottom:solid 1px #E4E4E6;
+		}
+		.do_modify{
+			width: 400px;
+			height: 250px;
+			margin-left: 40px;
+			margin-top: 40px;
+		}
+		.modifyInput{
+			height:30px;
+			margin-right: 30px;
+			float: right;
+		}
+		.modify_p{
+			text-decoration: none;
+			line-height: 30px;
+			margin: 0px;
+		}
+		.modifyButton{
+			height: 30px;
+			background-color: #FAAD9D;
+			width: 60px;
+			margin-left:95px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="modify_div">
+		<div id="modify_tag">修改用户名和密码</div>
+		<div class="do_modify">
+			<p class="modify_p">新用户名：<input type="text" class="modifyInput"></p><br>
+			<p class="modify_p">原密码：<input type="text" class="modifyInput"></p><br>
+			<p class="modify_p">新密码：<input type="text" class="modifyInput"></p><br>
+			<p class="modify_p">请再次输入新密码：<input type="text" class="modifyInput"></p><br>
+			<input type="submit" class="modifyButton" value="提交">
+			<input type="reset" class="modifyButton" value="重置">
+		</div>
+	</div>
+</body>
+</html>

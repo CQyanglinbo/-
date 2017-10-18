@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页面</title>
+	<style type="text/css">
+		*{margin:0;padding: 0}
+		ul,li{list-style: none;}
+		.main {
+			width: 800px;
+			height: 400px;
+			border: 2px solid pink;
+			margin:100px auto;
+			border-radius: 2%;
+			background-color: #78CA2B;
+			opacity: 0.7;
+		}	
+		.left {
+			width: 260px;
+			height: 245px;
+			margin-left: 70px;
+			margin-top: 70px;
+			/*border:1px solid cyan;*/
+			float: left;
+		}
+		.left img{
+		}
+		.right {
+			width:450px;
+			height: 390px;
+			margin-left: 340px;
+			/*border: 1px solid red;*/
+		}
+		.right-top {
+			width: 448px;
+			height: 90px;
+
+			/*border: 1px solid pink;*/
+		}
+		.img1 {
+			width: 65px;
+			height: 64px;
+			float: left;
+		}
+		.img1 img{
+			width: 65px;
+			height: 64px;
+			margin-left: 90px;
+			margin-top: 30px;
+			/*border: 1px solid cyan;*/
+			float: left;
+		}
+		.text {
+			width: 200px;
+			height: 64px;
+			margin-left: 180px;
+			font-size: 26px;
+			font-family: "宋体";
+			font-weight: bold;
+			padding-top: 50px;
+			padding-left: 20px;
+			
+		}
+		.right-middle {
+			width: 448px;
+			height: 300px;
+		}
+		li{
+			margin-left: 80px;
+			margin-top: 40px;
+		}
+		#name {
+			width: 230px;
+			height: 30px;
+		}
+		#password {
+			width: 230px;
+			height: 30px;
+		}
+		#submit {
+			margin-right: 33px;
+			 width: 80px;
+			 height: 30px;
+		}
+		#reset {
+			margin-right: 33px;
+			width: 80px;
+			height: 30px;
+		}
+		#register {
+			width: 80px;
+			height: 30px;
+		}
+	}
+	</style>
+</head>
+<body style="background-image: url(images/bg.jpg)">
+	<div class="main">
+		<div class="left">
+			<img src="images/login.jpg">
+		</div>
+		<div class="right">
+			<div class="right-top">
+				<div class="img1">
+					<img src="images/logo1.png">
+				</div>
+				<div class="text">
+					系统登录
+				</div>
+			</div>
+			<div class="right-middle">
+				<form action="" method="post" name="form" onsubmit="return login()">
+					<li>用户名：<input type="text" name="name" id="name" required="required" placeholder="请输入您的用户名！"></li>
+					<li>密&nbsp;&nbsp;&nbsp;码：<input type="password" name="password" id="password" placeholder="请输入您的登录密码！"></li>
+					<li><label><input type="checkbox" >记住密码</label></li>
+					<li><input type="submit" name="submit" id="submit" value="登录" >
+						<input type="reset" name="reset" id="reset" value="重置" >
+						<input type="button" name="register" id="register" value="注册">
+					</li>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function login(){
+			if(document.getElementById("name").value.length==0){
+				alert("用户名不能为空!");
+				document.getElementById("name").focus();
+				return false;
+			}else if(document.getElementById("password").value.length==0){
+				alert("密码不能为空!");
+				document.getElementById("password").focus();
+				return false;
+			}
+			alert("登录成功！");
+			return true;
+		}
+	</script>
+</body>
+</html>
